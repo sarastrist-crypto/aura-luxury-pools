@@ -1,0 +1,6 @@
+{
+  "name": "Aura Luxury Pools",
+  "description": "Premium luxury pool architectural design, elite infinity-edge engineering, and modern outdoor oasis experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

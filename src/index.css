@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-gold-50: #fbf7eb;
+  --color-gold-100: #f4ebd2;
+  --color-gold-200: #e7d4a1;
+  --color-gold-300: #dab96d;
+  --color-gold-400: #ce9d3f;
+  --color-gold-500: #be862e;
+  --color-gold-600: #9e6922;
+  --color-gold-700: #7d4f1c;
+  --color-gold-800: #5d3917;
+  --color-gold-900: #422612;
+  --color-gold-950: #251307;
+  
+  --color-turquoise-50: #e6fdfd;
+  --color-turquoise-100: #c1fafb;
+  --color-turquoise-200: #8cf2f4;
+  --color-turquoise-300: #4ae2e7;
+  --color-turquoise-400: #1dc2ca;
+  --color-turquoise-500: #0a9da4;
+  --color-turquoise-600: #067c85;
+  --color-turquoise-700: #08636b;
+  --color-turquoise-800: #0b5057;
+  --color-turquoise-900: #0e4349;
+  --color-turquoise-950: #03252a;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #030611;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for Luxury Dark-Mode Experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030611;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111e3b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e2e56;
+}
